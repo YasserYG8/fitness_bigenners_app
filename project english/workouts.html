@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Plans</title>
+    <link rel="stylesheet" href="workouts.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="#nutrition">Nutrition</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Workouts Section -->
+    <section class="workouts">
+        <div class="workout-plan" style="background: url(workouts/fullbody.jpg);">
+            <h2>Full-Body Workout </h2>
+            <ul>
+                <li>Jumping Jacks - 30 reps</li>
+                <li>Bodyweight Squats - 15 reps</li>
+                <li>Push-ups (Knee Push-ups for Beginners) - 10 reps</li>
+                <li>Plank - 30 seconds</li>
+                <li>Mountain Climbers - 20 reps</li>
+                <li>Lunges - 10 reps per leg</li>
+            </ul>
+            <button onclick="startTimer()">Start 30-Min Timer</button>
+        </div>
+        <div class="workout-plan" style="background: url(workouts/upperbody.jpg);">
+            <h2>Upper-Body Workout </h2>
+            <ul>
+                <li>Push-ups - 12 reps</li>
+                <li>Tricep Dips (use a chair) - 12 reps</li>
+                <li>Plank Shoulder Taps - 20 taps</li>
+                <li>Dumbbell Rows (or water bottles) - 15 reps per arm</li>
+                <li>Arm Circles - 20 reps each direction</li>
+            </ul>
+            <button onclick="startTimer()">Start 20-Min Timer</button>
+        </div>
+        <div class="workout-plan" style="background: url(workouts/lowerbody.jpg);">
+            <h2>Lower-Body Workout</h2>
+            <ul>
+                <li>Bodyweight Squats - 15 reps</li>
+                <li>Glute Bridges - 20 reps</li>
+                <li>Lunges - 12 reps per leg</li>
+                <li>Wall Sit - 45 seconds</li>
+                <li>Step-Ups (use stairs) - 15 reps per leg</li>
+                <li>Calf Raises - 20 reps</li>
+            </ul>
+            <button onclick="startTimer()">Start 25-Min Timer</button>
+        </div>
+        <div class="workout-plan" style="background: url(workouts/coreworkout.jpg);">
+            <h2>Core Workout</h2>
+            <ul>
+                <li>Plank - 30 seconds</li>
+                <li>Russian Twists - 20 twists</li>
+                <li>Bicycle Crunches - 15 reps per side</li>
+                <li>Leg Raises - 12 reps</li>
+                <li>Mountain Climbers - 20 reps</li>
+                <li>Superman Hold - 30 seconds</li>
+            </ul>
+            <button onclick="startTimer()">Start 20-Min Timer</button>
+        </div>
+        <div class="workout-plan" style="background: url(workouts/cardio.jpg);">
+            <h2>Cardio Workout</h2>
+            <ul>
+                <li>Jumping Jacks - 40 reps</li>
+                <li>High Knees - 30 seconds</li>
+                <li>Burpees - 10 reps</li>
+                <li>Skaters - 20 reps</li>
+                <li>Butt Kicks - 30 seconds</li>
+                <li>Mountain Climbers - 20 reps</li>
+            </ul>
+            <button onclick="startTimer()">Start 15-Min Timer</button>
+        </div>
+        <div class="workout-plan" style="background: url(workouts/strength.jpg);">
+            <h2>Bodyweight Strength Workout</h2>
+            <ul>
+                <li>Push-ups - 10 reps</li>
+                <li>Bodyweight Squats - 15 reps</li>
+                <li>Lunges - 10 reps per leg</li>
+                <li>Plank - 30 seconds</li>
+                <li>Superman Hold - 30 seconds</li>
+                <li>Tricep Dips - 10 reps</li>
+            </ul>
+            <button onclick="startTimer()">Start 30-Min Timer</button>
+        </div>
+                                                
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Workout for Beginners | <a href="#privacy">Privacy Policy</a></p>
+    </footer>
+
+    <script src="workouts.js"></script>
+</body>
+</html>

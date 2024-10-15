@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('fit1.png') no-repeat center center/cover;
+    color: white;
+}
+
+.hero .cta {
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.cta{
+    transition-property: transform,background-color;
+    transition-duration: 1s;
+}
+.cta:hover{
+    background-color: #004386;
+    transform:translateX(10px)
+
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.features .feature {
+    text-align: center;
+}
+
+.features .feature img {
+    max-width: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+img{
+    border-radius: 10%;
+     
+    transition-property: transform;
+    transition-duration:1s;
+}
+img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+
+
+
+}
+a{
+    cursor: pointer;
+    transition-property:color,text-decoration;
+
+
+}
+a:hover{
+    color: darkblue;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+
+}
